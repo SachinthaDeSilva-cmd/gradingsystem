@@ -77,6 +77,24 @@ while True:
     else:
         break
 
+    while True: #if user wants to add more or proceed the histogram loop
+        print('')
+        print("Enter 'q' for the histogram of current records","\nEnter 'c' to add more records")
+        qc = input()
+        print('')
+        if qc=="q":
+             break
+        elif qc=="c":
+            break
+        else:
+            print("INPUT 'q' or 'c' ")
+            continue
+    
+    if qc=="c":
+        continue
+    else:
+        break
+
 
 
 
